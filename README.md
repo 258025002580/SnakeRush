@@ -1,42 +1,49 @@
-﻿# Snake Rush - Web Version
+# 贪吃蛇大作战 - 网页版
 
-A modern web-based snake game converted from the original Pygame implementation.
+一款基于现代 Web 技术开发的贪吃蛇游戏，由原 Pygame 实现版本迁移而来。
 
-## Features
+<table>
+  <tr>
+    <td><img src="images/screenshot1.png" alt="游戏主界面" width="400"/></td>
+    <td><img src="images/screenshot2.png" alt="游戏进行中" width="400"/></td>
+  </tr>
+</table>
 
-- Full game with menu, gameplay, pause, and game over states
-- Smooth animations with gradient snake body and pulsing food effects
-- High score persistence using localStorage
-- Responsive controls (keyboard and mouse)
-- Sleek dark theme with grid background
+## 功能特点
 
-## How to Play
+- 完整游戏流程：菜单、游玩、暂停、游戏结束状态切换
+- 流畅动画效果：渐变蛇身、脉冲食物特效
+- 使用 localStorage 持久化保存最高分
+- 响应式操控：支持键盘与鼠标交互
+- 酷炫深色主题，搭配网格背景
 
-**Controls:**
-- Arrow Keys / WASD: Move the snake
-- SPACE / ENTER: Start / Restart game
-- ESC / P: Pause / Continue
+## 如何游玩
 
-**Objective:**
-Guide the snake to eat the red food. Each food gives you 10 points. Avoid hitting walls or the snake's own body.
+**控制方式：**
+- 方向键 / WASD：控制蛇移动
+- 空格键 / ENTER：开始 / 重新开始游戏
+- ESC / P：暂停 / 继续游戏
 
-## Files
+**游戏目标：**
+操控蛇吃掉红色食物。每个食物增加 10 分。避免撞墙或撞到自己的身体。
 
-- `index.html` - Main game page
-- `style.css` - Styling and layout
-- `game.js` - Game logic and rendering
-- `tanchishe.py` - Original Pygame version (for reference)
+## 文件说明
 
-## Running the Game
+- `index.html` - 游戏主页面
+- `style.css` - 样式与布局
+- `game.js` - 游戏逻辑与渲染
+- `tanchishe.py` - 原 Pygame 版本（仅供参考）
 
-Simply open `index.html` in any modern web browser. No server or installation needed.
+## 运行游戏
 
-The game uses Canvas 2D for rendering and works offline.
+直接在任意现代浏览器中打开 `index.html` 即可。无需服务器或安装。
 
-## Development
+游戏使用 Canvas 2D 进行渲染，支持离线运行。
 
-This web version was converted from a Pygame snake game. The conversion preserves the original game mechanics, visual style, and Chinese font aesthetics.
+## 开发说明
 
-## License
+本网页版由 Pygame 贪吃蛇游戏转换而来。转换过程保留了原始游戏机制、视觉风格以及中文字体美学。
 
-Open source. Feel free to modify and distribute.
+## 许可协议
+
+开源项目。欢迎自由修改与分发。
